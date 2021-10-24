@@ -1,0 +1,92 @@
+[
+    {
+      "title":"Ohii website",
+      "category":"design",
+      "img":"assets/images/ohii-2.png",
+      "description":"E-commerce skincare website design with glarmophism theme, mobile friendly",
+      "git":"",
+      "url":"",
+      "imgShow":"assets/images/ohii.png"
+    },
+    {
+      "title":"restaurant system",
+      "category":"full stack",
+      "img":"assets/images/restaurant-2.png",
+      "description":"Restaurant system, design and developed for helping three main position in restaurant such as waitress, chef, and cashier, making them easier managing their job.",
+      "git":"https://github.com/mila1349/restaurant-management",
+      "url":"https://restaurant-8c9dd.web.app/",
+      "imgShow":"assets/images/restaurant.png"
+    },
+    {
+      "title":"hotel booking website",
+      "category":"full stack",
+      "img":"assets/images/hotel-2.png",
+      "description":"Hotel booking system, convenient way for travellers to research and book their holidays or work trips.",
+      "git":"https://github.com/mila1349/booking-hotel-web-app",
+      "url":"",
+      "imgShow":"assets/images/hotel.png"
+    },
+    {
+      "title":"poterry mobile app",
+      "category":"design",
+      "img":"assets/images/pottery-1.png",
+      "description":"E-commmerce app design for selling poterry art and book poterry class.",
+      "git":"",
+      "url":"",
+      "imgShow":"assets/images/pottery-1.png"
+    },
+    {
+      "title":"shrik rupa dance academy",
+      "category":"design",
+      "img":"assets/images/shrii.png",
+      "description":"Redesign of traditional indian dance academy website, also making prototype and video interaction",
+      "git":"",
+      "url":"https://shrikrupa.org",
+      "imgShow":"assets/images/shrii-full.png"
+    },
+    {
+      "title":"personal website",
+      "category":"design",
+      "img":"assets/images/sach.png",
+      "description":"Redesign personal website,  also making prototype and video interaction",
+      "git":"",
+      "url":"https://sachitakashyap.com",
+      "imgShow":"assets/images/sach-full.png"
+    },
+    {
+      "title":"new york panty club",
+      "category":"front end",
+      "img":"assets/images/nypc.png",
+      "description":"Making user interface for panty shop e commerce with subscription services. Dark elegant theme and responsive for all devices.",
+      "git":"",
+      "url":"https://newyorkpantyclub.com",
+      "imgShow":"assets/images/nypc.png"
+    },
+    {
+      "title":"perfume website",
+      "category":"design",
+      "img":"assets/images/perfume-1.png",
+      "description":"Website design for perfume website, picking your own scent that suit your soul.",
+      "git":"",
+      "url":"",
+      "imgShow":"assets/images/perfume-1.png"
+    },
+    {
+      "title":"portfolio",
+      "category":"design",
+      "img":"assets/images/portfolio.png",
+      "description":"Hero section portfolio website design concept of professional oil painter artist",
+      "git":"",
+      "url":"",
+      "imgShow":"assets/images/portfolio.png"
+    },
+    {
+      "title":"tea e-commerce",
+      "category":"design",
+      "img":"assets/images/tea.png",
+      "description":"Hero section website design concept for chinese tea shop",
+      "git":"",
+      "url":"",
+      "imgShow":"assets/images/tea.png"
+    }
+  ]

@@ -1,0 +1,31 @@
+.slogan{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size:12rem;
+    position: relative;
+    z-index: 1;
+    .text{
+        width:100%;
+        height:80%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column;
+        @media only screen and (max-width: 655px){
+            justify-content: flex-end;
+            margin:0 1rem;
+            margin-bottom:5%;
+        }
+        h1{
+            font-size: calc(50px + (132 - 50) * ((100vw - 300px) / (1600 - 300)));
+            // font-size: 11rem;
+            position: relative;
+            z-index: 2;
+            line-height: 80%;
+        }
+    }
+}

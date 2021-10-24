@@ -1,0 +1,40 @@
+@import 'src/style.scss';
+
+.work{
+    width:100%;
+    .work-desc{
+        text-align: center;
+        padding:1rem 0;
+        background:$baseColor;
+        // @include center(column);
+        h1{
+            text-transform: uppercase;
+            font-size: calc(50px + (120 - 50) * ((100vw - 300px) / (1600 - 300)));
+
+        }
+        h2{
+            text-transform: uppercase;
+            color: $secondaryColor;
+            font-size: calc(13px + (24 - 13) * ((100vw - 300px) / (1600 - 300)));
+        }
+        .desc-p{
+            margin: 2rem auto;
+            width:70%;
+            min-width: 250px;
+            
+        }
+        .link{
+            padding: 0 2rem ;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            font-weight: bolder;
+            @media only screen and (max-width: 500px){
+                flex-direction: column;
+            }
+        }
+    }
+    img{
+        width:100%;
+    }
+}

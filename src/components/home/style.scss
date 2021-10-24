@@ -1,0 +1,61 @@
+@import 'src/style.scss';
+
+.home{
+    background: $baseColor;
+    width:100%;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    .bgTextured{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 40%;
+        right: 0;
+        bottom: 0;
+        @include center(row);
+        z-index: 1;
+        img{
+            width: 90%;
+            height:80%;
+            object-fit: fill;
+        }
+    }
+    .section-title{
+        min-height: 100%;
+        @include center(row);
+        transform: rotate(180deg);
+        position: relative;
+        .bgTitle{
+            height:80%;
+            position:absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1;
+        }
+        h1{
+            position: relative;
+            z-index: 2;
+            writing-mode: vertical-rl;  
+        }
+        @media only screen and (max-width: 570px){
+            // left:-5%;
+            h1{
+                font-size:30px;
+            }
+        }
+    }
+    @media only screen and (max-width: 655px){
+        .bgTextured{
+            align-items: flex-end;
+            padding-bottom: 10%;
+            left:30%;
+            img{
+                height: 50%;
+            }
+        }
+    }
+}
+

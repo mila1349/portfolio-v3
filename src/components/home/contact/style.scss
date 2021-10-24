@@ -1,0 +1,94 @@
+@import 'src/style.scss';
+
+.contact{
+    width:100%;
+    @include center(row);
+    overflow-y: hidden;
+    position:relative;
+    z-index:100;
+    transition: 1s;
+    .contact-container{
+        width:90%;
+        background: $secondaryColor;
+        .contact-title{
+            @include center(row);
+            padding: 1rem;
+            margin-bottom: 1rem;
+            h1{
+                font-size: calc(50px + (96 - 50) * ((100vw - 320px) / (1600 - 300)));
+                line-height: 60px;
+            }
+            img{
+                width: 120px;
+                cursor: pointer;
+                margin-left:1rem;
+                transition: 1s;
+                @media only screen and (max-width: 400px){
+                    width: 70px;
+                    margin-left: 0;
+                }
+            }
+        }
+        .contact-list{
+            border-top: 2px solid #000;
+            width:100%;
+            @include center(column);
+            padding: 0 3rem;
+            .row{
+                width:100%;
+                @include center(row);
+                justify-content: space-between;
+                margin: 2rem 0;
+                &:last-of-type{
+                    margin-bottom: 0;
+                }
+                ul{
+                    list-style-type: none;
+                    font-size:1.5rem;
+                    &:first-of-type{
+                        margin-left: 2rem;
+                        list-style-type:circle;
+                    }
+                    &:last-of-type{
+                        text-align: right;
+                    }
+                }
+                span{
+                    @include center(row);
+                    .social{
+                        width:25px;
+                        height: 25px;
+                        margin: 1rem;
+                    }
+                }
+            }
+
+        }
+    }
+    @media only screen and (max-width: 800px){
+        .contact-title{
+            padding:1rem;
+        }
+    }
+    @media only screen and (max-width: 670px){
+        .contact-title{
+            padding:0 1rem;
+        }
+        .contact-list{
+            .row{
+                &:first-of-type{
+                    margin: 1rem 0;
+                    flex-direction: column;
+                    ul{
+                    margin-bottom: 2rem;
+                    li{
+                        text-align: center;
+                    }
+                    }
+                }
+                
+            }
+        }
+        
+    }
+}

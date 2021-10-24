@@ -1,0 +1,85 @@
+@import 'src/style.scss';
+
+.works{
+    width:100%;
+    min-height:100vh;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 6%;
+    padding-top:80px;
+    .works-container{
+        width:80%;
+        position: relative;
+        z-index: 2;
+        .view-more{
+            margin: 1rem;
+            @include center(row);
+            justify-content: left;
+            img{
+                margin-left: 1rem;
+            }
+        }
+        @media only screen and (max-width: 570px){
+            width:90%;
+        }
+    }
+    .title {
+        width: 100%;
+        margin: 0 1rem;
+        opacity: 1;
+        transition: opacity 0.35s cubic-bezier(0.77, 0, 0.175, 1);
+        svg{
+            width:100%;
+            height:2px;
+        }
+        .title-con{
+            height: 80px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .plus{
+            cursor: pointer;
+            h1{
+                font-size: calc(60px + (96 - 60) * ((100vw - 320px) / (1600 - 320)));
+            }
+        }
+        h2{
+            font-size: calc(20px + (36 - 20) * ((100vw - 300px) / (1600 - 300)));
+            text-transform: capitalize;
+        }
+        h3{
+            font-size: calc(13px + (24 - 13) * ((100vw - 300px) / (1600 - 300)));
+            color:$secondaryColor;
+            font-weight: lighter;
+            text-transform: uppercase;
+        }
+        .work-title {
+            display: flex;
+            align-items: center;
+            .project {
+                margin-left: 2rem;
+            }
+        }
+    }
+    .img-wrapper {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        img {
+            position: absolute;
+            object-fit: contain;
+            width: 30%;
+            height: auto;
+            opacity: 0;
+            transition: opacity 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+            
+        }
+        .is-active {
+            opacity: 1;
+        }
+    }
+}
