@@ -9,13 +9,22 @@
       "imgShow":"assets/images/ohii.png"
     },
     {
-      "title":"restaurant system",
-      "category":"full stack",
-      "img":"assets/images/restaurant-2.png",
-      "description":"Restaurant system, design and developed for helping three main position in restaurant such as waitress, chef, and cashier, making them easier managing their job.",
-      "git":"https://github.com/mila1349/restaurant-management",
-      "url":"https://restaurant-8c9dd.web.app/",
-      "imgShow":"assets/images/restaurant.png"
+      "title":"YUBI Trade",
+      "category":"design",
+      "img":"assets/images/landing-yubi-trade.png",
+      "description":"Trading commodities website",
+      "git":"",
+      "url":"",
+      "imgShow":"assets/images/yubi-trade.png"
+    },
+    {
+      "title":"Localspotter",
+      "category":"design",
+      "img":"assets/images/localspotter-show.png",
+      "description":"E-commerce app with main feature spotting local store for buying an contact with them",
+      "git":"",
+      "url":"",
+      "imgShow":"assets/images/localspotter-show.png"
     },
     {
       "title":"hotel booking website",
@@ -36,6 +45,15 @@
       "imgShow":"assets/images/pottery-1.png"
     },
     {
+      "title":"restaurant system",
+      "category":"full stack",
+      "img":"assets/images/restaurant-2.png",
+      "description":"Restaurant system, design and developed for helping three main position in restaurant such as waitress, chef, and cashier, making them easier managing their job.",
+      "git":"https://github.com/mila1349/restaurant-management",
+      "url":"https://restaurant-8c9dd.web.app/",
+      "imgShow":"assets/images/restaurant.png"
+    },
+    {
       "title":"shrik rupa dance academy",
       "category":"design",
       "img":"assets/images/shrii.png",
@@ -45,13 +63,13 @@
       "imgShow":"assets/images/shrii-full.png"
     },
     {
-      "title":"personal website",
+      "title":"YUBI Pay",
       "category":"design",
-      "img":"assets/images/sach.png",
-      "description":"Redesign personal website,  also making prototype and video interaction",
+      "img":"assets/images/landing-yubi-pay.png",
+      "description":"Design payment website YUBI Trade with all funtionality",
       "git":"",
       "url":"https://sachitakashyap.com",
-      "imgShow":"assets/images/sach-full.png"
+      "imgShow":"assets/images/yubi-pay.png"
     },
     {
       "title":"new york panty club",
@@ -70,6 +88,15 @@
       "git":"",
       "url":"",
       "imgShow":"assets/images/perfume-1.png"
+    },
+    {
+      "title":"Delivery Webisite",
+      "category":"full stack",
+      "img":"assets/images/delivery.png",
+      "description":"Website design for delivery package website.",
+      "git":"",
+      "url":"",
+      "imgShow":"assets/images/delivery-full.png"
     },
     {
       "title":"portfolio",

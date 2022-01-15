@@ -15,6 +15,8 @@ import QuestThree from './components/home/questions/page/StartupQuest'
 
 import NavbarDiff from './components/home/navbar/NavbarDiff'
 
+import ScrollToTop from './ScrollToTop';
+
 function App() {
   const [displayAnimation, setDisplayAnimation]=useState(true)
 
@@ -22,6 +24,7 @@ function App() {
   return (
     <div  className="App">
       <Router>
+        <ScrollToTop/>
         <Switch>
 
           <Route path="/questThree">
